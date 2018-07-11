@@ -21,8 +21,9 @@ def fib2(n):   # return Fibonacci series up to n
 	[1, 2, 3, 4]
 
 	"""
-   a, b = 0, 1
-   while a < n:
-       result.append(a)
-       a, b = b, a+b
-   return result
+	result = []
+  	a, b = 0, 1
+   	while a < n:
+       		result.append(a)
+       		a, b = b, a+b
+   	return result
