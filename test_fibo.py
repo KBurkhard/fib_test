@@ -22,3 +22,4 @@ def test_fibo_5():
 def test_fib_type():
 	result = fibo.fib2(5)
 	assert type(result) == list
+
